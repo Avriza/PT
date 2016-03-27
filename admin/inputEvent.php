@@ -1,0 +1,114 @@
+<head>
+
+    <title>Input Event</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/inputEvent.css" rel="stylesheet">
+	<link href="css\bootstrap.css" rel="stylesheet" type="text/css">
+	<link href="css\bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="css\bootstrap-theme.min.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul>
+			    <li class="nonactive"><a href="homeadmin.php">Home</a></li>
+			    <li class="nonactive"><a href="ticketbooked.php">Ticket Booked</a></li>
+			    <li class="active"><a href="inputEvent.php">Input Event</a></li>
+			    <li class="nonactive"><a href="inputOrg.php">Input Org</a></li>
+		        <li class="nonactive"><a href="bond.php">Bond</a></li>
+			    <li class="nonactive"><a href="listAccount.php">List Account</a></li>
+			    <li class="logout btn-danger" ><a href="#">Logout</a></li>
+			</ul>
+        </div>
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <div class="row" style="margin: auto">
+                    <div class="col-lg-12">
+						<div id="adminis">
+                        <h1><font color=#071424>Administrator</font></h1>
+						</div>
+                        <form class="form-horizontal" role="form">
+						<div id="form">
+						<div class="form-group">
+							<label class="control-label col-sm-2" for="nama_event">Event Name:</label>
+							<div class="col-sm-10">
+								<input type="email" class="form-control" placeholder="Event name">
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="control-label col-sm-2" for="nama_ukm">Organization:</label>
+							<div class="col-sm-10">
+								<select class="form-control" id="sel1">
+									<option>HIMA 1</option>
+									<option>HIMA 2</option>
+									<option>HIMA 3</option>
+									<option>HIMA 4</option>
+								</select>
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="control-label col-sm-2" for="tangga">Date:</label>
+							<div class="col-sm-10">
+								<input  type="date" class="form-control">
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="control-label col-sm-2" for="desc_event">Description:</label>
+							<div class="col-sm-10">
+								<textarea class="form-control" rows="5" ></textarea>
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="control-label col-sm-2" for="contact">Contact:</label>
+							<div class="col-sm-10">
+								<input type="text" class="form-control" placeholder="Ex: 081xxxxxxxxx">
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="control-label col-sm-2" for="contact">Quota:</label>
+							<div class="col-sm-10">
+								<input type="number" class="form-control" placeholder="Quota">
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="control-label col-sm-2" for="contact">Fee:</label>
+							<div class="col-sm-10">
+								<div class="input-group">
+								  <span class="input-group-addon">Rp</span>
+								  <input type="number" class="form-control" aria-label="Amount (to the nearest dollar)">
+								  <span class="input-group-addon">.000</span>
+								</div>
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label class="control-label col-sm-2">Event Logo:</label>
+							<label class = "sr-only" for = "inputfile">File input</label>
+							<input type = "file" id = "inputfile">
+						</div>
+						</div>
+					<div class="form-group"> 
+				<div class="pull-right">
+			<button type="submit" class="btn btn-primary">Publish</button>
+		</div>
+	</div>
+</form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+`	
+
+</body>
+
+</html>

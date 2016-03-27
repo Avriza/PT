@@ -1,0 +1,148 @@
+#wrapper {
+    padding-left: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled {
+    padding-left: 200px;
+}
+
+#sidebar-wrapper {
+    z-index: 1000;
+    position: fixed;
+    left: 200px;
+    width: 0;
+    height: 100%;
+    margin-left: -250px;
+    overflow-y: auto;
+    background: #071424;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+    width: 200px;
+}
+
+#page-content-wrapper {
+    width: 100%;
+    position: absolute;
+    padding: 15px;
+}
+
+#wrapper.toggled #page-content-wrapper {
+    position: absolute;
+    margin-right: -250px;
+}
+#logout{
+margin-top:20;
+margin-right:20;
+}
+
+#adminis{
+margin-left:455;
+margin-bottom:20;
+}
+#picthome{
+margin-left:130;
+}
+/* Sidebar Styles */
+
+ul{
+    width: 250px;
+    height: 328px;
+    background-color: #071424;
+    list-style: none;
+    position: absolute;
+    top: 45px;
+}
+.active{
+    background-color: #182A42;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    padding: 10px 0 10px 25px;
+}
+.nonactive {
+    color: #797979;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition-duration:0.4s;
+    padding: 10px 0 10px 25px;
+}
+.nonactive:hover{
+    background-color: #182A42;
+    color: #1FB899;
+}
+.active a{
+    text-decoration: none;
+    color: #1FB899;
+}
+.nonactive a{
+    text-decoration: none;
+    color: #797979;
+}
+.nonactive a:hover{
+    text-decoration: none;
+    color: #1FB899;
+}
+a{
+    text-decoration: none;
+}
+.logout{
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition-duration:0.4s;
+    padding: 10px 0 10px 25px;
+}
+.logout:hover{
+    background-color: #182A42;
+    color: #1FB899;
+}
+.logout a{
+    text-decoration: none;
+    color: white;
+}
+.logout a:hover{
+    text-decoration: none;
+    color: white;
+}
+.warnatable{
+color: #999999;
+background:#1FB899;
+}
+
+
+@media(min-width:768px) {
+    #wrapper {
+        padding-left: 200px;
+    }
+
+    #wrapper.toggled {
+        padding-left: 0;
+    }
+
+    #sidebar-wrapper {
+        width: 250px;
+    }
+
+    #wrapper.toggled #sidebar-wrapper {
+        width: 0;
+    }
+
+    #page-content-wrapper {
+        padding: 20px;
+        position: relative;
+    }
+
+    #wrapper.toggled #page-content-wrapper {
+        position: relative;
+        margin-right: 0;
+    }
+}

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<link href="css\bootstrap.css" rel="stylesheet" type="text/css">
+	<link href="css\bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="css\bootstrap-theme.min.css" rel="stylesheet" type="text/css">
+	<link href="css\home.css" rel="stylesheet" type="text/css">
+	<script src="js\jquery-1.12.0.js" type="text/javascript" rel="stylesheet"></script>
+	<script src="js\bootstrap.min.js" type="text/javascript" rel="stylesheet"></script>
+	<link rel="shortcut icon" href="images/logo.png" />
+</head>
+<body>
+	
+	<!-- Menu -->
+	<div class="container navbar-fixed-top">
+		<!-- Logo -->
+		<div class="logo">
+			<a href="#"><img src="images/logo2.png" width="54px" height="50px"></a>
+		</div>
+
+		<!-- Search Box -->
+		<div id="search">
+			<div id="search-cont">
+				<div id="icon">
+					<span class="glyphicon glyphicon-search icon" aria-hidden="true" style="color:#1FB899"></span>
+				</div>
+				<div id="input">
+					<input type="text" class="form-control searchbox" id="exampleInputEmail1" placeholder="Search Event ...">
+				</div>
+			</div>
+		</div>
+		<ul>
+		<strong>
+			<li class="active"><a href="#">Home</a></li>
+			<li class="nonactive"><a href="#">Organization</a></li>
+			<li class="nonactive"><a href="#">Contact</a></li>
+			<li class="nonactive"><a href="#">About Us</a></li>
+			<li class="nonactive">
+				<div class="dropdown">
+				    <a href="#" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="text-decoration:none">Accounts <span class="glyphicon glyphicon-triangle-bottom"></span></a>
+				  <ul class="dropdown-menu" aria-labelledby="dLabel">
+				    <a href="#" class="anak"><li >Change Password</li></a>
+				    <a href="#"><li class="anak">Sign Out</li></a>
+				  </ul>
+				</div>
+			</li>
+		</strong>
+		</ul>
+	</div>
+
+	<!-- Ticket Container -->
+	<div id="ticket-cont">
+		<div id="header">
+			<div id="picture">
+				<img src="images/logo.png" alt="p1" class="img-circle" width="100px" height="100px">
+			</div>
+			<div id="title">
+				<h4 class="name"><strong>Event Name</strong></h4>
+				<h5 style="color:white">by</h5>
+				<h4 style="color:white">HIMA</h4>
+			</div>
+		</div>
+		<div id="tes-info">
+			<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+			  <div class="panel panel-default">
+			    <div class="one" role="tab" id="headingOne">
+			      <h4 class="panel-title" style="margin-left:155px">
+			        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+			          <strong>Information</strong>
+			        </a>
+			      </h4>
+			    </div>
+			    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+			      <div class="panel-body body-one">
+			        <div id="info-cont">
+			        	<h5 style="color:white">Rest Quota</h4>
+			        	<h1 style="color:#1FB899; font-size:40px; margin-top:10px">30</h1>
+			        </div>
+			        <div id="info-cont">
+			        	<h5 style="color:white">Date</h4>
+			        	<h1 style="color:#1FB899; font-size:30px; margin-top:15px;">29/9/16</h1>
+			        </div>
+			        <div id="info-cont">
+			        	<h5 style="color:white">Fee</h4>
+			        	<h1 style="color:#1FB899; font-size:40px; margin-top:10px">29K</h1>
+			        </div>
+			        <div id="info-cont">
+			        	<h5 style="color:white">Contact</h4>
+			        	<h1 style="color:#1FB899; font-size:25px; margin-top:20px">085731708900</h1>
+			        </div>
+			      </div>
+			    </div>
+			  </div>
+			  <div class="panel panel-default">
+			    <div class="two" role="tab" id="headingTwo">
+			      <h4 class="panel-title" style="text-align:center">
+			        <a class="collapsed desc" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+			          <strong>Description</strong>
+			        </a>
+			      </h4>
+			    </div>
+			    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+			      <div class="panel-body body-two">
+			        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+			      </div>
+			    </div>
+			    
+			  </div>
+			  <div class="panel panel-default">
+			    <div class="three" role="tab" id="headingThree">
+			      <h4 class="panel-title" style="text-align:center">
+			        <a class="collapsed buy" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+			          <strong>Buy Ticket</strong>
+			        </a>
+			      </h4>
+			    </div>
+			    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+			      <div class="panel-body">
+			        
+			      </div>
+			    </div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- Footer -->
+	<div id="footer">
+		&copy;2016 Endeavour Team
+	</div>
+</body>
+</html>

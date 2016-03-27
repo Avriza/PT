@@ -1,0 +1,101 @@
+<head>
+
+    <title>Ticket Booked</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/ticketbooked.css" rel="stylesheet">
+    <link href="css\bootstrap.css" rel="stylesheet" type="text/css">
+	<link href="css\bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="css\bootstrap-theme.min.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul>
+			    <li class="nonactive"><a href="homeadmin.html">Home</a></li>
+			    <li class="active"><a href="ticketbooked.html">Ticket Booked</a></li>
+			    <li class="nonactive"><a href="inputEvent.html">Input Event</a></li>
+			    <li class="nonactive"><a href="inputOrg.html">Input Org</a></li>
+		        <li class="nonactive"><a href="bond.html">Bond</a></li>
+			    <li class="nonactive"><a href="listAccount.html">List Account</a></li>
+			    <li class="logout btn-danger" ><a href="#">Logout</a></li>
+			</ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+						<div id="adminis">
+                        <h1><font color=#071424>Administrator</font></h1>
+						</div>
+						<table class="table">
+						<tbody>
+						
+						<tr>
+						<td>Nama</td>
+							<td>Event</td>
+							<td>Date</td>
+							<td>Time</td>
+							<td><div class="pull-right">
+							<div class="btn btn-success btn-sm"> <span class="glyphicon glyphicon-remove-sign"></span> 
+							<xp:link id="expandLink" > <xp:eventHandler event="onclick" submit="true" refreshMode="partial" refreshId="thisValue"> 
+							<xp:this.action><![CDATA[#{javascript:viewScope.vsTest = "Test"}]]></xp:this.action> </xp:eventHandler> </xp:link> 
+							</div>
+							
+							</div>
+							</td>
+							</tr>
+							<tr>
+						<td>Nama</td>
+							<td>Event</td>
+							<td>Date</td>
+							<td>Time</td>
+							<td><div class="pull-right">
+							<div class="btn btn-success btn-sm"> <span class="glyphicon glyphicon-remove-sign"></span> 
+							<xp:link id="expandLink" > <xp:eventHandler event="onclick" submit="true" refreshMode="partial" refreshId="thisValue"> 
+							<xp:this.action><![CDATA[#{javascript:viewScope.vsTest = "Test"}]]></xp:this.action> </xp:eventHandler> </xp:link> 
+							</div>
+							
+							</div>
+							</td>
+							</tr>
+							<tr>
+						<td>Nama</td>
+							<td>Event</td>
+							<td>Date</td>
+							<td>Time</td>
+							<td><div class="pull-right">
+							<div class="btn btn-success btn-sm"> <span class="glyphicon glyphicon-remove-sign"></span> 
+							<xp:link id="expandLink" > <xp:eventHandler event="onclick" submit="true" refreshMode="partial" refreshId="thisValue"> 
+							<xp:this.action><![CDATA[#{javascript:viewScope.vsTest = "Test"}]]></xp:this.action> </xp:eventHandler> </xp:link> 
+							</div>
+							
+							</div>
+							</td>
+							</tr>
+							
+						
+					</tbody>
+				</table>
+						</div>
+						</div>
+						</div>
+                    </div>
+                </div>
+            </div>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+body{
+	font-style: century gothic;
+	background-color: #071424;
+	text-align: center;
+}
+#container{
+	width: 400px;
+	height: 400px;
+	background-color: transparent;
+	margin: auto;
+	margin-top: 100px;
+	text-align: center;
+}
+h2{
+	color: white;
+}
+.btn{
+	width: 100%;
+    float: right;
+    margin: auto;
+    margin-top: 15px;
+    background-color: #00A243;
+    color: white;
+    outline: none;
+    text-decoration: none;
+}
+a{
+	color: white;
+	text-decoration: none;
+	font-style: none;
+}
+a:hover{
+	color: white;
+	text-decoration: none;
+}

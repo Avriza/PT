@@ -1,0 +1,52 @@
+body{
+	/*background: url("../awg2014-sport0329.jpg") no-repeat center center fixed;*/
+	background-size: cover;
+	font-family: roboto;
+}
+#container{
+	height: 210px;
+    width: 35%;
+    top: 400px;
+    left: 445px;
+    text-align: center;
+    color: white;
+	position: absolute;
+}
+input[type="email"],input[type="password"]{
+	background-color: transparent;
+	background-color: rgba(0, 0, 0, 0.47);
+    border-radius: 10px;
+    border-color: rgba(43, 40, 44, 0);
+    color: white;
+    text-align: center;
+    margin: auto;
+    width: 60%;
+}
+input[type="email"]:focus{
+	background-color: black;
+	transition:0.5s;
+	outline: 0;
+	border-color: red;
+}
+input[type="password"]:focus{
+	background-color: black;
+	transition:0.5s;
+	border-color: red;
+}
+button[type="submit"]{
+	text-align: center;
+	width: 60%;
+	border-radius: 10px;
+	background-color: #00B32D;
+    border-color: #00B32D;
+}
+button[type="submit"]:hover{
+	background-color: #007F20;
+	transition:0.2s;
+}
+img{
+	height: 500px;
+}
+.tinggi{
+	height: 100%;
+}
